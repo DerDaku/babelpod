@@ -167,7 +167,7 @@ browser.on('serviceUp', function (data) {
         if (!availableAirplayStereoOutputs[stereoName]) 
           availableAirplayStereoOutputs[stereoName] = {
             'id': 'stereoAirplay_' + stereoName,
-            'name': stereoName,
+            'name': 'Airplay: ' + stereoName,
             'type': 'stereoAirplay',
             'devices': []
           }
